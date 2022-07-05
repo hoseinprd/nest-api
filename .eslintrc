@@ -1,0 +1,11 @@
+{
+  "extends": ["@fullstacksjs"],
+  "overrides": [
+    {
+      "files": ["*-test.ts", "*.spec.ts", "*.e2e-spec.ts"],
+      "rules": {
+        "fp/no-let": "off"
+      }
+    }
+  ]
+}
